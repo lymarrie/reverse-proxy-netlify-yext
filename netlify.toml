@@ -6,22 +6,15 @@
   package = "netlify-plugin-cypress"
   
 [[redirects]]
-  from = "/assets/*"
-  to = "https://devrelativeprefixtopath-brightly--radical--smelt-pgsdemo-com.preview.pagescdn.com/assets/:splat"
-  status = 200
-  force = true
-  headers = {}
-  
-[[redirects]]
   from = "/subdirectory/*"
-  to = "https://devrelativeprefixtopath-brightly--radical--smelt-pgsdemo-com.preview.pagescdn.com/:splat"
+  to = "https://amply-voiceless-fox.pgsdemo.com/:splat"
   status = 200
   force = true
-  headers = {Host = "https://devrelativeprefixtopath-brightly--radical--smelt-pgsdemo-com.preview.pagescdn.com/"}
+  headers = {Host = "https://amply-voiceless-fox.pgsdemo.com"}
   
 [[redirects]]
   from = "/subdirectory"
-  to = "https://devrelativeprefixtopath-brightly--radical--smelt-pgsdemo-com.preview.pagescdn.com/index.html"
+  to = "https://amply-voiceless-fox.pgsdemo.com/index.html"
   status = 200
   force = true
-  headers = {Host = "https://devrelativeprefixtopath-brightly--radical--smelt-pgsdemo-com.preview.pagescdn.com/"}
+  headers = {Host = "https://amply-voiceless-fox.pgsdemo.com"}
