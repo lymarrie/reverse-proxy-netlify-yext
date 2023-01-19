@@ -5,6 +5,7 @@
 [[plugins]]
   package = "netlify-plugin-cypress"
   
+  
 [[redirects]]
   from = "/subdirectory/*"
   to = "https://amply-voiceless-fox.pgsdemo.com/:splat"
@@ -14,7 +15,7 @@
   
 [[redirects]]
   from = "/subdirectory"
-  to = "/subdirectory/index.html"
+  to = "https://amply-voiceless-fox.pgsdemo.com/index.html"
   status = 200
   force = true
   headers = {Host = "https://amply-voiceless-fox.pgsdemo.com"}
