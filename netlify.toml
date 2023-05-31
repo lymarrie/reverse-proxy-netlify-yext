@@ -8,14 +8,14 @@
   
 [[redirects]]
   from = "/subdirectory/*"
-  to = "https://amply-voiceless-fox.pgsdemo.com/:splat"
+  to = "https://master-desirably--nutty--flounder-pgsdemo-com.preview.pagescdn.com/:splat"
   status = 200
   force = true
-  headers = {Host = "https://amply-voiceless-fox.pgsdemo.com"}
+  headers = {Host = "https://master-desirably--nutty--flounder-pgsdemo-com.preview.pagescdn.com"}
   
 [[redirects]]
   from = "/subdirectory"
-  to = "https://amply-voiceless-fox.pgsdemo.com/index.html"
+  to = "https://master-desirably--nutty--flounder-pgsdemo-com.preview.pagescdn.com/index.html"
   status = 200
   force = true
-  headers = {Host = "https://amply-voiceless-fox.pgsdemo.com/"}
+  headers = {Host = "https://master-desirably--nutty--flounder-pgsdemo-com.preview.pagescdn.com/"}
