@@ -8,14 +8,14 @@
   
 [[redirects]]
   from = "/subdirectory/*"
-  to = "https://main-joyfully--fiscal--marmoset-pgsdemo-com.preview.pagescdn.com/:splat"
+  to = "http://rp-test.pagesprod.yextengtest.com/:splat"
   status = 200
   force = true
-  headers = {Host = "https://main-joyfully--fiscal--marmoset-pgsdemo-com.preview.pagescdn.com"}
+  headers = {Host = "http://rp-test.pagesprod.yextengtest.com/"}
   
 [[redirects]]
   from = "/subdirectory"
-  to = "https://main-joyfully--fiscal--marmoset-pgsdemo-com.preview.pagescdn.com/index.html"
+  to = "http://rp-test.pagesprod.yextengtest.com/index.html"
   status = 200
   force = true
-  headers = {Host = "https://main-joyfully--fiscal--marmoset-pgsdemo-com.preview.pagescdn.com/"}
+  headers = {Host = "http://rp-test.pagesprod.yextengtest.com//"}
