@@ -8,14 +8,14 @@
   
 [[redirects]]
   from = "/subdirectory/*"
-  to = "http://rp-test.pagesprod.yextengtest.com/:splat"
+  to = "https://rp-test.pagesprod.yextengtest.com/:splat"
   status = 200
   force = true
-  headers = {Host = "http://rp-test.pagesprod.yextengtest.com/"}
+  headers = {Host = "https://rp-test.pagesprod.yextengtest.com/"}
   
 [[redirects]]
   from = "/subdirectory"
-  to = "http://rp-test.pagesprod.yextengtest.com/index.html"
+  to = "https://rp-test.pagesprod.yextengtest.com/index.html"
   status = 200
   force = true
-  headers = {Host = "http://rp-test.pagesprod.yextengtest.com//"}
+  headers = {Host = "https://rp-test.pagesprod.yextengtest.com/"}
