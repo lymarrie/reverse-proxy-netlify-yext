@@ -8,14 +8,14 @@
   
 [[redirects]]
   from = "/subdirectory/*"
-  to = "https://amply-voiceless-fox.pgsdemo.com/:splat"
+  to = "https://reverseproxytest.pagesbeta24.com.pagescdn.com/:splat"
   status = 200
   force = true
-  headers = {Host = "https://amply-voiceless-fox.pgsdemo.com"}
+  headers = {Host = "https://reverseproxytest.pagesbeta24.com.pagescdn.com"}
   
 [[redirects]]
   from = "/subdirectory"
-  to = "https://amply-voiceless-fox.pgsdemo.com/index.html"
+  to = "https://reverseproxytest.pagesbeta24.com.pagescdn.com/index.html"
   status = 200
   force = true
-  headers = {Host = "https://amply-voiceless-fox.pgsdemo.com/"}
+  headers = {Host = "https://reverseproxytest.pagesbeta24.com.pagescdn.com/"}
