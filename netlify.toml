@@ -19,3 +19,11 @@
   status = 200
   force = true
   headers = {Host = "https://amply-voiceless-fox.pgsdemo.com/"}
+
+  [[redirects]]
+  from = "/assets/static/*"
+  to = "https://amply-voiceless-fox.pgsdemo.com/assets/static/:splat"
+  status = 200
+  force = true
+  headers = {Host = "https://amply-voiceless-fox.pgsdemo.com/"}
+
