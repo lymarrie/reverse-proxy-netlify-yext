@@ -19,3 +19,10 @@
   status = 200
   force = true
   headers = {Host = "https://rp-test.pagesprod.yextengtest.com/"}
+
+[[redirects]]
+  from = "/subdirectory/assets/*"
+  to = "https://rp-test.pagesprod.yextengtest.com/subdirectory/:splat"
+  status = 200
+  force = true
+  headers = {Host = "https://rp-test.pagesprod.yextengtest.com/"}
