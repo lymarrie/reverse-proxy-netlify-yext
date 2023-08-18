@@ -7,21 +7,21 @@
   
 [[redirects]]
   from = "/subdirectory/assets/*"
-  to = "https://rp-test.pagesprod.yextengtest.com/subdirectory/assets/:splat"
+  to = "https://clemently-cautious-coyote.pgsdemo.com/subdirectory/assets/:splat"
   status = 200
   force = true
-  headers = {Host = "https://rp-test.pagesprod.yextengtest.com/"}
+  headers = {Host = "https://clemently-cautious-coyote.pgsdemo.com/"}
   
 [[redirects]]
   from = "/subdirectory/*"
-  to = "https://rp-test.pagesprod.yextengtest.com/:splat"
+  to = "https://clemently-cautious-coyote.pgsdemo.com/:splat"
   status = 200
   force = true
-  headers = {Host = "https://rp-test.pagesprod.yextengtest.com/"}
+  headers = {Host = "https://clemently-cautious-coyote.pgsdemo.com/"}
   
 [[redirects]]
   from = "/subdirectory"
-  to = "https://rp-test.pagesprod.yextengtest.com/index.html"
+  to = "https://clemently-cautious-coyote.pgsdemo.com/index.html"
   status = 200
   force = true
-  headers = {Host = "https://rp-test.pagesprod.yextengtest.com/"}
+  headers = {Host = "https://clemently-cautious-coyote.pgsdemo.com/"}
