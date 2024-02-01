@@ -7,23 +7,23 @@
 
   
 [[redirects]]
-  from = "/subdirectory/*"
-  to = "https://amply-voiceless-fox.pgsdemo.com/:splat"
+  from = "/locations/*"
+  to = "https://locations-starter-reverse-proxytest.pgsdemo.com/:splat"
   status = 200
   force = true
-  headers = {Host = "https://amply-voiceless-fox.pgsdemo.com"}
+  headers = {Host = "https://locations-starter-reverse-proxytest.pgsdemo.com"}
   
 [[redirects]]
-  from = "/subdirectory"
-  to = "https://amply-voiceless-fox.pgsdemo.com/index.html"
+  from = "/locations"
+  to = "https://locations-starter-reverse-proxytest.pgsdemo.com/index.html"
   status = 200
   force = true
-  headers = {Host = "https://amply-voiceless-fox.pgsdemo.com/"}
+  headers = {Host = "https://locations-starter-reverse-proxytest.pgsdemo.com/"}
 
   [[redirects]]
   from = "/assets/static/*"
-  to = "https://amply-voiceless-fox.pgsdemo.com/assets/static/:splat"
+  to = "https://locations-starter-reverse-proxytest.pgsdemo.com/assets/static/:splat"
   status = 200
   force = true
-  headers = {Host = "https://amply-voiceless-fox.pgsdemo.com/"}
+  headers = {Host = "https://locations-starter-reverse-proxytest.pgsdemo.com/"}
 
