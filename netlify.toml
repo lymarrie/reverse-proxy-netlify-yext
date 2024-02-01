@@ -20,10 +20,4 @@
   force = true
   headers = {Host = "https://locations-starter-reverse-proxytest.pgsdemo.com/"}
 
-  [[redirects]]
-  from = "/assets/static/*"
-  to = "https://locations-starter-reverse-proxytest.pgsdemo.com/assets/static/:splat"
-  status = 200
-  force = true
-  headers = {Host = "https://locations-starter-reverse-proxytest.pgsdemo.com/"}
 
